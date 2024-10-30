@@ -35,14 +35,14 @@ export default function Navbar(props) {
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                 <button className="btn btn-primary" type="submit">Search</button>
                 </form>
-                <div className={`form-check form-switch text-${props.mode ==='dark'?'white':'black'}`}>
+                {/* <div className={`form-check form-switch text-${props.mode ==='dark'?'white':'black'}`}>
                     <input type="checkbox" onClick={()=>{props.toggleMode("null")}} className="form-check-input" id="flexSwitchCheckDefault"/>
                     <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable {props.mode==='dark'?'Light':'Dark'} Mode</label>
                 </div>
                 <div className={`form-check form-switch text-${props.redMode ==='dark'?'white':'black'}`}>
                     <input type="checkbox" onClick={props.toggleRed} className="form-check-input" id="flexSwitchCheckDefault"/>
                     <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable {props.redMode==='dark'?'Light':'Red'} Mode</label>
-                </div>
+                </div> */}
                 
             </div>
         </div>
